@@ -1,0 +1,16 @@
+PODS:
+  - rookCocoaPodTest (0.1.0)
+
+DEPENDENCIES:
+  - rookCocoaPodTest (from `../`)
+
+EXTERNAL SOURCES:
+  rookCocoaPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  rookCocoaPodTest: 9417ea0534dc5bb141044241cd9daaef2ab608c2
+
+PODFILE CHECKSUM: 886482493f044f229848ebc16a5d03065d0d2358
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module rookCocoaPodTest {
+  umbrella header "rookCocoaPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

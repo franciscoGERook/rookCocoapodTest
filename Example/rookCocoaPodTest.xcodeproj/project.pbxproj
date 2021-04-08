@@ -12,15 +12,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01113EDAE5C7FFADEE005362 /* rookCocoaPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rookCocoaPodTest.podspec; path = ../rookCocoaPodTest.podspec; sourceTree = "<group>"; };
+		01113EDAE5C7FFADEE005362 /* rookCocoaPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rookCocoaPodTest.podspec; path = ../rookCocoaPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2933EA68DFA1CE26B387A502 /* Pods_rookCocoaPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rookCocoaPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* rookCocoaPodTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rookCocoaPodTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		638BA0062F87EA52AAB99029 /* Pods-rookCocoaPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rookCocoaPodTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-rookCocoaPodTest_Tests/Pods-rookCocoaPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		67B7703D032A63515250521D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		67B7703D032A63515250521D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7A12E67B6094CC2A9301CB7D /* Pods-rookCocoaPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rookCocoaPodTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-rookCocoaPodTest_Tests/Pods-rookCocoaPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F358BE13B47730617AFB7C55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F358BE13B47730617AFB7C55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,6 @@
 				7A12E67B6094CC2A9301CB7D /* Pods-rookCocoaPodTest_Tests.debug.xcconfig */,
 				638BA0062F87EA52AAB99029 /* Pods-rookCocoaPodTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Q4Y6GAQ5T6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -147,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -328,6 +325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A12E67B6094CC2A9301CB7D /* Pods-rookCocoaPodTest_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q4Y6GAQ5T6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -350,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 638BA0062F87EA52AAB99029 /* Pods-rookCocoaPodTest_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q4Y6GAQ5T6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
